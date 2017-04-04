@@ -32,7 +32,7 @@ public class EliPing extends JavaPlugin {
 
         Messages.init();
 
-        new Metrics(this).addCustomChart(new Metrics.SimplePie("timeRefresh") {
+        new Metrics(this).addCustomChart(new Metrics.SimplePie("timerefresh") {
             @Override
             public String getValue() {
                 getLogger().info("nice");
