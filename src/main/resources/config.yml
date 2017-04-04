@@ -1,0 +1,44 @@
+###########################################
+#                                         #
+#          Ping  -  By Elikill58          #
+#                                         #
+#  Manage pings messages and pings geter  #
+#                                         #
+###########################################
+
+timeRefresh: 20
+#En ticks | In ticks
+#20 ticks = 1 seconde | 20 ticks = 1 second
+#Default : 20
+
+Messages:
+#  name_message: "messages in English"
+##  name_message: "messages en français"
+#
+#If you want edit language add "#" before the "name_message" who correspond at last language and delete that before new language
+#
+#Si vous voulez modifier la langue, ajoutez "#" avant le "name_message" qui correspond a l'ancienne langue, et supprimez celui devant la nouvelle lange.
+#
+
+   ping_get: "You have <ping> ms"
+#   ping_get: "Vous avez <ping> ms"
+
+   ping_get_other: "<name> has <ping> ms"
+#   ping_get_other: "<name> a <ping> ms"
+
+   not_valid_player: "<arg> is not a valid player !"
+#   not_valid_player: "<arg> n'est pas un joueur valide !"
+
+   tab: "<tab> (<ping>)"
+#   tab: "<tab> (<ping>)"
+
+   reload: "The plugin is well reloaded."
+#   reload: "Le plugin est bien redémarré."
+
+# Codes :
+# 
+# <tab> = tab actuel du joueur | tab = actual tab of player;
+# <name> = nom du joueur | name of player;
+# <arg> = le mot invalide | an invalid word
+# <ping> = ping du joueur | ping of player;
+# 

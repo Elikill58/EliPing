@@ -1,0 +1,8 @@
+name: EliPing
+main: com.elikill58.ping.Main
+version: 1.4
+author: Elikill58
+
+commands:
+  ping:
+    permission: ping.ping
