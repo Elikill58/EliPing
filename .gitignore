@@ -1,1 +1,15 @@
-/bin/
+.gradle/
+
+bin/
+build/
+
+.idea/libraries/
+.idea/gradle.xml
+.idea/workspace.xml
+
+.classpath
+.project
+
+*.iws
+
+EliPing.iml

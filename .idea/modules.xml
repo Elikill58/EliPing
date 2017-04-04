@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/EliPing.iml" filepath="$PROJECT_DIR$/.idea/EliPing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/EliPing_main.iml" filepath="$PROJECT_DIR$/.idea/modules/EliPing_main.iml" group="EliPing" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/EliPing_test.iml" filepath="$PROJECT_DIR$/.idea/modules/EliPing_test.iml" group="EliPing" />
+    </modules>
+  </component>
+</project>
