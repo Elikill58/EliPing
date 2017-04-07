@@ -13,7 +13,9 @@ public class Messages {
     public static String FROM_CONSOLE = Utils.applyColorCodes("&cA console has no ping !");
     public static String RELOAD_SUCCESS = Utils.applyColorCodes("&aThe plugin has been successfully reloaded");
     public static String RELOAD_FAIL = Utils.applyColorCodes("&cThe plugin hasn't been successfully reloaded");
+    public static String NO_PERMISSION = Utils.applyColorCodes("&cYou don't have permission to do this command");
 
+    @SuppressWarnings("deprecation")
     public static void init() {
         YamlConfiguration langConf = new YamlConfiguration();
         try {
@@ -25,6 +27,7 @@ public class Messages {
             FROM_CONSOLE = Utils.applyColorCodes(langConf.getString("from_console"));
             RELOAD_SUCCESS = Utils.applyColorCodes(langConf.getString("reload_success"));
             RELOAD_FAIL = Utils.applyColorCodes(langConf.getString("reload_fail"));
+            NO_PERMISSION = Utils.applyColorCodes(langConf.getString("no_permission"));
         } catch(IOException | InvalidConfigurationException e) {
             e.printStackTrace();
         }
