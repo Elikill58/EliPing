@@ -13,7 +13,6 @@ public class PingCommand implements TabExecutor {
 
     @Override
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
-
         if (args.length == 0) {
             if(sender instanceof Player) {
                 sender.sendMessage(Messages.PING_GET.replaceAll("<ping>", String.valueOf(EliPing.getPing((Player) sender))));
@@ -22,6 +21,11 @@ public class PingCommand implements TabExecutor {
             }
         } else {
             if(args[0].equalsIgnoreCase("reload")) {
+                if(!sender.hasPermission("ping.reload")) {
+                    sender.sendMessage(Messages.NO_PERMISSION);
+                    return true;
+                }
+
                 try {
                     EliPing.reload();
                     sender.sendMessage(Messages.RELOAD_SUCCESS);
@@ -34,7 +38,7 @@ public class PingCommand implements TabExecutor {
                 int otherping = EliPing.getPing(target);
                 sender.sendMessage(Messages.PING_GET_OTHER
                         .replaceAll("<name>", target.getName())
-                        .replaceAll("<ping>", otherping + ""));
+                        .replaceAll("<ping>", String.valueOf(otherping)));
             } else {
                 sender.sendMessage(Messages.NOT_VALID_PLAYER
                         .replaceAll("<arg>", args[0]));
