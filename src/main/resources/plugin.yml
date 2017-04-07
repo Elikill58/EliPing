@@ -1,6 +1,6 @@
 name: EliPing
 main: com.elikill58.ping.EliPing
-version: 1.4
+version: 1.5
 author: Elikill58
 
 commands:
