@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Eliping.iml" filepath="$PROJECT_DIR$/.idea/modules/Eliping.iml" />
-      <module fileurl="file://E:\Projects\EliPing\.idea\EliPing.iml" filepath="E:\Projects\EliPing\.idea\EliPing.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/EliPing_main.iml" filepath="$PROJECT_DIR$/.idea/modules/EliPing_main.iml" group="EliPing" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/EliPing_test.iml" filepath="$PROJECT_DIR$/.idea/modules/EliPing_test.iml" group="EliPing" />
     </modules>
