@@ -1,0 +1,10 @@
+name: EliPing
+main: com.elikill58.ping.EliPing
+version: 1.4
+author: Elikill58
+
+commands:
+  ping:
+    permission: ping.ping
+    usage: /ping [player | reload]
+    description: gives your ping or ping of a given player

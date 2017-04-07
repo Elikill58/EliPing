@@ -1,0 +1,6 @@
+ping_get: "&eYou have a ping of <ping> ms"
+ping_get_other: "&e<name> has a ping of <ping> ms"
+not_valid_player: "&c<arg> is not a valid player !"
+from_console: "&cA console has no ping !"
+reload_success: "&aThe plugin has been successfully reloaded"
+reload_fail: "&cThe plugin hasn't been successfully reloaded"
