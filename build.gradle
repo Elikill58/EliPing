@@ -1,5 +1,4 @@
-group 'com.elikill58'
-version '1.5'
+group = pluginGroup
 
 apply plugin: 'java'
 
@@ -9,19 +8,14 @@ apply plugin: 'idea'
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
-repositories {
-    // spigot api
-    maven {
-        url 'https://hub.spigotmc.org/nexus/content/groups/public/'
+subprojects.each { subproject -> evaluationDependsOn(subproject.path)}
+task allJar( type: Jar, dependsOn: subprojects.tasks["build"] ) {
+    baseName = 'EliPing-Universal'
+    subprojects.each { subproject ->
+        from subproject.configurations.archives.allArtifacts.files.collect {
+            zipTree(it)
+        }
     }
-    // bungeecord stuff
-    maven {
-        url 'https://oss.sonatype.org/content/repositories/snapshots/'
-    }
-}
-
-dependencies {
-    compile 'org.spigotmc:spigot-api:1.11.2-R0.1-SNAPSHOT'
 }
 
 eclipse {

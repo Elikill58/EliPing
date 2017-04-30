@@ -1,0 +1,27 @@
+###########################################
+#                                         #
+#          Ping  -  By Elikill58          #
+#                                         #
+#  Manage pings messages and pings geter  #
+#                                         #
+###########################################
+
+#En ticks | In ticks
+#20 ticks = 1 seconde | 20 ticks = 1 second
+#Default : 20
+timeRefresh: 20
+
+# available by default: en_US, fr_FR
+# default and fallback: en_US
+language: "en_US"
+
+# Language codes :
+#
+# <tab> = tab actuel du joueur | tab = actual tab of player;
+# <name> = nom du joueur | name of player;
+# <arg> = le mot invalide | an invalid word
+# <ping> = ping du joueur | ping of player;
+#
+
+tab_format: "<tab> &e(<ping>)"
+
