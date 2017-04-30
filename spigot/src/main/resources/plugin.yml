@@ -1,11 +1,6 @@
 name: EliPing
-<<<<<<< HEAD:spigot/src/main/resources/plugin.yml
 main: com.elikill58.eliping.spigot.EliPing
 version: @version@
-=======
-main: com.elikill58.ping.EliPing
-version: 1.5
->>>>>>> dfd4fd6c25fef72a563394aaa1cb90a861e5dc84:src/main/resources/plugin.yml
 author: Elikill58
 
 commands:

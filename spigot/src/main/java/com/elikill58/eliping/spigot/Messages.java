@@ -15,10 +15,7 @@ public class Messages {
     public static String RELOAD_SUCCESS = Utils.applyColorCodes("&aThe plugin has been successfully reloaded");
     public static String RELOAD_FAIL = Utils.applyColorCodes("&cThe plugin hasn't been successfully reloaded");
     public static String NO_PERMISSION = Utils.applyColorCodes("&cYou don't have permission to do this command");
-<<<<<<< HEAD:spigot/src/main/java/com/elikill58/eliping/spigot/Messages.java
     public static String REFRESH = Utils.applyColorCodes("&aPlayers' pings refreshed");
-=======
->>>>>>> dfd4fd6c25fef72a563394aaa1cb90a861e5dc84:src/main/java/com/elikill58/ping/Messages.java
 
     @SuppressWarnings("deprecation")
     public static void init() {
@@ -33,10 +30,7 @@ public class Messages {
             RELOAD_SUCCESS = Utils.applyColorCodes(langConf.getString("reload_success"));
             RELOAD_FAIL = Utils.applyColorCodes(langConf.getString("reload_fail"));
             NO_PERMISSION = Utils.applyColorCodes(langConf.getString("no_permission"));
-<<<<<<< HEAD:spigot/src/main/java/com/elikill58/eliping/spigot/Messages.java
             REFRESH = Utils.applyColorCodes(langConf.getString("refresh"));
-=======
->>>>>>> dfd4fd6c25fef72a563394aaa1cb90a861e5dc84:src/main/java/com/elikill58/ping/Messages.java
         } catch(IOException | InvalidConfigurationException e) {
             e.printStackTrace();
         }
