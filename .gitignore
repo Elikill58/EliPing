@@ -5,10 +5,6 @@
 bin/
 build/
 
-.idea/libraries/
-.idea/gradle.xml
-.idea/workspace.xml
-
 .classpath
 .project
 
