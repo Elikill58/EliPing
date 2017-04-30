@@ -1,0 +1,4 @@
+name: EliPing
+main: com.elikill58.eliping.bungee.EliPing
+version: @version@
+author: RedNesto

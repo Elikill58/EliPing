@@ -1,0 +1,33 @@
+group = pluginGroup
+
+apply plugin: 'java'
+
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+subprojects.each { subproject -> evaluationDependsOn(subproject.path)}
+task allJar( type: Jar, dependsOn: subprojects.tasks["build"] ) {
+    baseName = 'EliPing-Universal'
+    subprojects.each { subproject ->
+        from subproject.configurations.archives.allArtifacts.files.collect {
+            zipTree(it)
+        }
+    }
+}
+
+eclipse {
+    classpath {
+        downloadJavadoc = true
+        downloadSources = false
+    }
+}
+
+idea {
+    module {
+        downloadJavadoc = true
+        downloadSources = false
+    }
+}

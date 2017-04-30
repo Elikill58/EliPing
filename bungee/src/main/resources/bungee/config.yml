@@ -1,0 +1,23 @@
+###########################################
+#                                         #
+#          Ping  -  By Elikill58          #
+#                                         #
+#  Manage pings messages and pings geter  #
+#                                         #
+###########################################
+
+# available by default: en_US, fr_FR
+# default and fallback: en_US
+language: "en_US"
+
+# Language codes :
+#
+# <tab> = tab actuel du joueur | tab = actual tab of player;
+# <name> = nom du joueur | name of player;
+# <arg> = le mot invalide | an invalid word
+# <ping> = ping du joueur | ping of player;
+#
+
+# Should the TabComplete be enabled ?
+# It is better to disable it on servers who have many players connected
+tabComplete: true

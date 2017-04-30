@@ -5,6 +5,15 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/EliPing.iml" filepath="$PROJECT_DIR$/.idea/modules/EliPing.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/EliPing_main.iml" filepath="$PROJECT_DIR$/.idea/modules/EliPing_main.iml" group="EliPing" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/EliPing_test.iml" filepath="$PROJECT_DIR$/.idea/modules/EliPing_test.iml" group="EliPing" />
+      <module fileurl="file://$PROJECT_DIR$/bungee/bungee.iml" filepath="$PROJECT_DIR$/bungee/bungee.iml" group="bungee" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bungee/bungee_main.iml" filepath="$PROJECT_DIR$/.idea/modules/bungee/bungee_main.iml" group="bungee" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bungee/bungee_test.iml" filepath="$PROJECT_DIR$/.idea/modules/bungee/bungee_test.iml" group="bungee" />
+      <module fileurl="file://$PROJECT_DIR$/spigot/spigot.iml" filepath="$PROJECT_DIR$/spigot/spigot.iml" group="spigot" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spigot/spigot_main.iml" filepath="$PROJECT_DIR$/.idea/modules/spigot/spigot_main.iml" group="spigot" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spigot/spigot_test.iml" filepath="$PROJECT_DIR$/.idea/modules/spigot/spigot_test.iml" group="spigot" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sponge/sponge.iml" filepath="$PROJECT_DIR$/.idea/modules/sponge/sponge.iml" group="sponge" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sponge/sponge_main.iml" filepath="$PROJECT_DIR$/.idea/modules/sponge/sponge_main.iml" group="sponge" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sponge/sponge_test.iml" filepath="$PROJECT_DIR$/.idea/modules/sponge/sponge_test.iml" group="sponge" />
     </modules>
   </component>
 </project>
